@@ -29,42 +29,18 @@ This project was developed with the MERN stack along with TypeScript, a GraphQL 
 
 - Node.js
 - Express.js
-- TypeScript
+- JWT
 - Mongoose
 - Apollo GraphQL
 - Socket<span/>.io
-- JWT
 
 **Database**
 
 - MongoDB Atlas
 
-## Data
-
-The general stock data in this project was generated with [Mockaroo](https://www.mockaroo.com/) and filled in manually.
-
 **Stock**
 
 This project uses [JSON](https://www.json.org/json-en.html) to represent stock data in the form of:
-
-```json
-[
-  {
-    "_id": "ObjectId",
-    "ticker": "String",
-    "exchange": "String",
-    "name": "String",
-    "price": 0.00,
-    "currency": "String",
-    "ipo": "String",
-    "country": "String",
-    "logo": "URL",
-    "weburl": "URL",
-  }
-]
-```
-
-The [schema](https://mongoosejs.com/docs/guide.html) of this model can be found in [`/server/models/Stock.ts`](https://github.com/roynulrohan/Stocks.io/blob/master/server/models/Stock.ts)
 
 ## Development
 
@@ -134,13 +110,3 @@ Now you can run the clientproject.
 npm start
 ```
 
-## Screenshots
-
-Home Page
-![](misc/Home-Page.png)
-Market Page
-![](misc/Market-Page.png)
-Stock Page
-![](misc/Stock-Page.png)
-Account Page
-![](misc/Account-Page.png)
