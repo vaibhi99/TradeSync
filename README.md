@@ -9,21 +9,10 @@ Stock<span/>.io is a trading and investment simulation platform developed with t
 - [Stack](#stack)<br/>
 - [Data](#data)<br/>
 - [Development](#development)<br/>
-- [Screenshots](#screenshots)<br/>
-
 ## Stack
 
 This project was developed with the MERN stack along with TypeScript, a GraphQL API, Socket.io and JWT for authentication.
 
-**Front-End**
-
-- React
-- Redux
-- TypeScript
-- TailwindCSS, SASS
-- Framer-Motion
-- Apollo GraphQL Client
-- ChartJS
 
 **Back-End**
 
